@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ammoru.github.io/react_tic-tac-toe/",
   "name": "tic-tac-toe-react-app",
   "private": true,
   "version": "0.1.0",
@@ -9,6 +10,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.jsx",
     "lint:fix": "eslint . --fix --ext .js,.jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

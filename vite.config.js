@@ -22,7 +22,7 @@ export default ({ command, mode }) => {
 
   return defineConfig({
     root,
-    base,
+    base:"/react_tic-tac-toe",
     mode,
     plugins: [react()],
     build: {
